@@ -1,0 +1,26 @@
+//package Week-2.Assertion.test;
+import java.util.*;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class AssertionTest {
+
+    @Test
+    public void testAssertions() {
+
+        // Assert equals
+        assertEquals(5, 2 + 3);
+
+        // Assert true
+        assertTrue(5 > 3);
+
+        // Assert false
+        assertFalse(5 < 3);
+
+        // Assert null
+        assertNull(null);
+
+        // Assert not null
+        assertNotNull(new Object());
+    }
+}
